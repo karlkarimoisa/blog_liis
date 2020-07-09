@@ -16,9 +16,9 @@ module.exports = ({env}) => ({
     upload: {
         provider: 'cloudinary',
         providerOptions: {
-            "cloud_name": 'dvmhmims5',
-            "api_key": '219543247919919',
-            "api_secret": 'S1orKCMZIgabYStsE7kQYArU4Yg'
+            cloud_name: 'dvmhmims5',
+            api_key: '219543247919919',
+            api_secret: 'S1orKCMZIgabYStsE7kQYArU4Yg'
           },
         
       }
