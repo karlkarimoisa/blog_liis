@@ -38,9 +38,9 @@ const isFirstRun = async () => {
         ...{
           provider: "cloudinary",
           name: "Cloudinary",
-          cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
-          api_key: process.env.CLOUDINARY_API_KEY,
-          api_secret: process.env.CLOUDINARY_API_SECRET,
+          cloud_name: env('dvmhmims5'),
+            api_key: env('219543247919919'),
+        api_secret: env('S1orKCMZIgabYStsE7kQYArU4Yg')
         },
       },
     });
@@ -53,4 +53,4 @@ const isFirstRun = async () => {
     }
   };
 
-
+module.exports = () => {};
