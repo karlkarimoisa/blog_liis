@@ -9,7 +9,6 @@ const Home = () => {
       <div className="uk-section">
         <div className="uk-container uk-container-large">
           <h1>Liisbeti blogi</h1>
-          <h2>Kirjutan siia mida tahan</h2>
           <Query query={ARTICLES_QUERY}>
             {({ data: { articles } }) => {
               return <Articles articles={articles} />;
